@@ -72,7 +72,7 @@ const void * const MDCViewStateKey = &MDCViewStateKey;
     };
 
     [UIView animateWithDuration:self.mdc_options.swipeAnimationDuration
-                          delay:0.0
+                          delay:0.3
                         options:self.mdc_options.swipeAnimationOptions
                      animations:animations
                      completion:completion];
